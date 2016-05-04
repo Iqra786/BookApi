@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Book_Name_Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Book Title"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Book_Name_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Author_Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Author"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Author_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Desc_Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Description"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Desc_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Published_Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Published Date"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Published_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Category"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Category_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Pages_Count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pages Counts"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Pages_Count_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Average_Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Average Rating"/>
+
+    <TextView
+        android:id="@+id/tv_Fragment_Book_Detail_Heading_Average_Rating_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"/>
+
+</LinearLayout>
+
+
+</ScrollView>
